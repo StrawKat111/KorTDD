@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kor", "Kor\Kor.csproj", "{16E015A4-4121-42F0-B2BA-591440806B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorTDD_Test", "KorTDD_Test\KorTDD_Test.csproj", "{A09C4306-D100-4086-B10C-EBA46F7BF12E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16E015A4-4121-42F0-B2BA-591440806B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E015A4-4121-42F0-B2BA-591440806B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E015A4-4121-42F0-B2BA-591440806B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E015A4-4121-42F0-B2BA-591440806B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09C4306-D100-4086-B10C-EBA46F7BF12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09C4306-D100-4086-B10C-EBA46F7BF12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09C4306-D100-4086-B10C-EBA46F7BF12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09C4306-D100-4086-B10C-EBA46F7BF12E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44D23226-9EB0-478B-BE06-C6BC13AE21F8}
+	EndGlobalSection
+EndGlobal
