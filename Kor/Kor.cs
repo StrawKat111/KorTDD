@@ -6,26 +6,33 @@ using System.Threading.Tasks;
 
 namespace Kor
 {
-    public class Kor
+    public class Korok
     {
         private double sugar = 0.0,
             kerulet = 0.0,
             terulet = 0.0;
-        public Kor(double r)
+        public Korok(double r)
         {
             this.sugar = r;
         }
-        public double SetKerulet(double r)
+        public void setSugar(double r)
         {
-            // return this.kerulet = 2 * r * Math.PI;
-            return 0.0;
+            this.sugar = r;
         }
-        public double SetTerulet(double r)
+        public double setKerulet(double r)
+        {
+            if (r<=0.0)
+            {
+                throw new ArgumentException();
+            }
+            return 2 * this.sugar * Math.Round(Math.PI,2);
+        }
+        public double setTerulet(double r)
         {
             // return this.kerulet = r * r * Math.PI;
             return 0;
         }
-        public double GetSugar()
+        public double getSugar()
         {
             return sugar;
         }
